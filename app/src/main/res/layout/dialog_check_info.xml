@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:padding="5dp"
+    android:background="@color/FaceColor"
+    android:text="信息确认"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="姓　　名："
+            android:textSize="25sp"
+            android:textColor="@color/FaceColor"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dialog_info_name"
+            android:layout_width="0dp"
+            android:textColor="@color/FaceColor"
+            android:layout_weight="5"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="身份证号："
+            android:textSize="25sp"
+            android:textColor="@color/FaceColor"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dialog_info_id"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:textColor="@color/FaceColor"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/check_info"
+        android:textSize="25sp"
+        android:textColor="#e61c0a"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/image_dialog"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="300dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_photo_back"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="返回"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_touch_bg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_image_re"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="重拍"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_touch_bg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_photo_submit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="确定"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_touch_bg"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

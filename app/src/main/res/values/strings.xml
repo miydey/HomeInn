@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">如家自助入住系统</string>
+    <string name="face_up_to">请正视摄像头</string>
+    <string name="camera_open_fail">无法打开相机</string>
+    <string name="first_install">这是您的机器首次安装本软件？</string>
+    <string name="set_password">请设置密码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="set_password_success">设置密码成功</string>
+    <string name="password_not_empty">密码不可为空</string>
+    <string name="no_card_verify">无证验证入口</string>
+    <string name="password_wrong">密码错误</string>
+    <string name="submit">确定</string>
+    <string name="cancel">取消</string>
+    <string name="go_back">返回</string>
+    <string name="swipe_card">请重新刷卡</string>
+    <string name="time_out">身份证过期</string>
+    <string name="check_info">请仔细核对个人信息，如输入有误或照片模糊请点击返回重新输入，确认后信息无法更改</string>
+    <string name="pay_warning">声明：如因录入信息有误而导致比对失败，支付后无法退款</string>
+    <string name="paid_no_result">查询支付结果</string>
+    <string name="read_card_fail">读卡失败</string>
+    <string name="page_up">上一页</string>
+    <string name="page_down">下一页</string>
+    <string name="page_last">末页</string>
+    <string name="upload">正在比对，请等待</string>
+    <string name="hint_id">请输入身份证号</string>
+    <string name="hint_name">请输入姓名</string>
+    <string name="comparing">正在比对...</string>
+    <string name="no_face">无人脸</string>
+    <string name="pay">点击下一步，将进入支付界面，并选择您的支付方式</string>
+    <string name="disclaimer">声明：此为本人提交身份证信息申请比对，并确认以上信息准确无误，此证明两天内有效。</string>
+    <string name="customer_name">姓　　名：</string>
+    <string name="customer_info_table">无身份证住宿人员信息核对表</string>
+    <string name="customer_gender">性　　别：</string>
+    <string name="storage_key">STORAGE</string>
+
+    <string name="app_info">\t\t本公司是一家基于人脸识别生物技术为商业楼宇、金融、交通、教育、酒店等行业，提供机器人视觉识别应用一体化系统解决方案服务的综合性高新技术开发企业，借助人工智能的浪潮，创霸科技开创了人脸识别技术在各场景从线上到线下的全方位应用。\n\t\t产品方向包括：智慧酒店、智能商业楼宇解决方案、智能客户分析解决方案等一系列先进、安全、可靠的行业应用服务。</string>
+    <string name="input_check_code">请输入验证码</string>
+    <string name="check_code_error">验证码错误</string>
+    <string name="input_hotel_msg">请输入酒店信息</string>
+    <string name="login_fail">账户错误或登录失败</string>
+    <string name="select_machine">请选择您的机器名称</string>
+    <string name="add_machine">新增前台机</string>
+    <string name="net_status_changed">网络环境变化，请检查</string>
+    <string name="cancel_pay">是否取消支付</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="version_update">版本更新</string>
+    <string name="order_days">您选择的日期共：%1$s天</string>
+    <string name="pay_price">温馨提示：无证比对功能为有偿使用，本次比对单次价格为 ￥%1$s</string>
+    <string name="get_price_fail">获取比对单价失败，请检查网络环境</string>
+    <string name="message_update">是否下载新版安装包\n版本号: %1$s</string>
+    <string name="back_index">是否要返回主界面</string>
+    <string name="no_save_info">确认后将不保留已录入的信息</string>
+    <string name="download_finished">下载完成</string>
+    <string name="install_right_now">是否立即安装</string>
+    <string name="query_machine_fail">网络错误，查询列表失败</string>
+    <string name="wechat_qrcode">无证人员微信验证入口</string>
+    <string name="input_check_server">请输入服务器地址</string>
+    <string name="count">%1$s秒后自动退出</string>
+    <string name="check_number">入住人数%1$s 待验证人数%2$s</string>
+    <string-array name="number_array">
+        <item>其他</item>
+        <item>6人</item>
+        <item>7人</item>
+        <item>8人</item>
+    </string-array>
+</resources>

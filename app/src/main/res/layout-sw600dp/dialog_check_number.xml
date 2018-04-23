@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:textColor="@color/white"
+    android:background="@color/orange"
+    android:text="选择入住人数"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_check_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="1人"
+            android:background="@drawable/button_touch_bg"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/bt_check_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="2人"
+            android:background="@drawable/button_touch_bg"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/bt_check_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="3人"
+            android:background="@drawable/button_touch_bg"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>

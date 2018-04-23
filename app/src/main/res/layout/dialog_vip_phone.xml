@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:background="@color/orange"
+    android:text="请进行信息确认"
+    android:layout_width="match_parent"
+    android:textColor="@color/white"
+    android:padding="5dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textSize="30sp"
+            android:text="手机号："
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_order_phone"
+            android:inputType="number"
+            android:background="@drawable/shape_edit"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:maxLength="11"
+            android:layout_marginRight="20dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textSize="30sp"
+            android:text="姓名："
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_order_name"
+            android:background="@drawable/shape_edit"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:layout_marginRight="20dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_phone_submit"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="确认"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_touch_bg"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_phone_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="返回"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_touch_bg"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

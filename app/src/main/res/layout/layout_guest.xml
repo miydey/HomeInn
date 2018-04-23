@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:textSize="30sp"
+    android:gravity="center"
+    android:background="@color/orange"
+    android:padding="15dp"
+    android:textColor="@color/white"
+    android:text="入住人员信息登记"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape_edit"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name1" />
+
+        <TextView
+            android:id="@+id/tv_id1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_vip1"
+            android:gravity="center"
+            android:text="铂金会员"
+            android:layout_margin="10dp"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/success"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:background="@drawable/button_touch_bg"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="清除信息"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="@drawable/button_touch_bg"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="会员优惠"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_edit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_name2"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_id2"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_vip2"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_rst2"
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/success"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:id="@+id/tv_add_guest2"
+                android:background="@drawable/button_touch_bg"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="添加同行人"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@drawable/button_touch_bg"
+                android:textColor="@color/grgray"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="会员优惠"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_edit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_vip3"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/success"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:background="@drawable/button_touch_bg"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="添加同行人"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@drawable/button_touch_bg"
+                android:textColor="@color/grgray"
+                android:textSize="30sp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="会员优惠"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_guest_submit"
+            android:padding="10dp"
+            android:background="@drawable/button_touch_bg"
+            android:text="下一步"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

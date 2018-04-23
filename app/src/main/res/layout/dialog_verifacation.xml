@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="设备验证"
+        android:textColor="@color/white"
+        android:background="@color/FaceColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:id="@+id/tv_hard_number"
+        android:textColor="@color/FaceColor"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:text="验证码："
+            android:textColor="@color/FaceColor"
+            android:textSize="25sp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/shape_edit"
+            android:id="@+id/et_verification"
+            android:hint="请输入设备验证码"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="5dp"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_select"></include>
+</LinearLayout>

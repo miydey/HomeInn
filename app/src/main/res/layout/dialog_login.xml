@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:background="@drawable/shape_edit"
+        android:id="@+id/et_login_account"
+        android:layout_margin="30dp"
+        android:padding="5dp"
+        android:hint="请输入账号"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:background="@drawable/shape_edit"
+        android:id="@+id/et_login_password"
+        android:layout_margin="30dp"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:hint="请输入密码"
+        android:textSize="30sp"
+        android:password="true"
+        android:maxLength="8"
+       android:digits="0123456789qazwsxedcrfvtgbyhnujmiklopQAZWSXEDCRFVTGBYHNUJMIKLOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+   <include layout="@layout/layout_select">
+
+   </include>
+</LinearLayout>

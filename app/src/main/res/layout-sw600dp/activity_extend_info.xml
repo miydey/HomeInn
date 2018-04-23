@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_night"
+    android:alpha="10"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_top">
+
+    </include>
+
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="入住人："
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_change_number"
+            android:background="@drawable/button_touch_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:text="修改人员"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="续住天数："
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_extend_day"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_extend_date"
+            android:background="@drawable/button_touch_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:text="选择天数"
+            android:textSize="40sp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="房型："
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_extend_type"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="标准房"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_change_type"
+            android:background="@drawable/button_touch_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:text="选择房型"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="房间号："
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_room_number"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="501"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_change_number"
+            android:background="@drawable/button_touch_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:text="换房间"
+            android:textSize="40sp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_type_msg"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="温馨提示：若当前房间未被预定，则续住时默认续住当前房间，您可手动选择换房间"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_margin="40dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_extend_pay"
+            android:background="@drawable/button_touch_bg"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:text="下一步"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>

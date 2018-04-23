@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="20dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="请扫扫描下方二维码"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/iv_close_qr"
+            android:src="@drawable/fail"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+<ImageView
+    android:id="@+id/image_qrcode"
+    android:layout_gravity="center"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    />
+    <TextView
+        android:textSize="25sp"
+        android:text="@string/pay_warning"
+        android:textColor="#e61c0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="right"
+            android:id="@+id/tv_query"
+            android:paddingRight="50dp"
+            android:text="@string/paid_no_result"
+            android:textSize="25sp"
+            android:textColor="@color/FaceColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_count_down"
+            android:textSize="25sp"
+            android:textColor="@color/FaceColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    >
+<TextView
+    android:id="@+id/tv_item_type"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="大床房"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_item_price_normal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="449"
+        android:textSize="30sp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_item_price_vip"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="419"
+        android:textSize="30sp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/iv_day_minus"
+        android:src="@mipmap/day_minus_grey"
+        android:layout_width="30dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_item_day"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/iv_day_add"
+        android:src="@mipmap/day_add"
+        android:layout_width="30dp"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/bt_order_submit"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="确定"
+        android:textSize="30sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+</LinearLayout>

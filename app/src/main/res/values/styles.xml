@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/FaceColor</item>
+        <item name="android:textColor">@color/FaceColor</item>
+        <item name="android:textColorSecondary">@color/FaceColor</item>
+        <item name="android:textColorSecondaryInverse">@color/FaceColor</item>
+        <item name="android:colorForeground">@color/FaceColor</item>
+    </style>
+
+<style name="HisStyle" parent="Base.V7.Theme.AppCompat.Light.Dialog">
+    <item name="android:textColor">@color/FaceColor</item>
+    <item name="android:textColorSecondary">@color/FaceColor</item>
+    <item name="android:textColorSecondaryInverse">@color/FaceColor</item>
+    <item name="android:dialogTheme">@color/white</item>
+
+    <!--item name="android:windowBackground">@drawable/shape_dialog_bg</item-->
+</style>
+    <style name="Dialog_Anim_Style" parent="android:Animation" >
+        <item name="android:windowEnterAnimation">@anim/left_in</item>  //进入时的动画
+        <item name="android:windowExitAnimation">@anim/left_out</item>    //退出时的动画
+    </style>
+
+    <style name="CustomDialog" parent="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:textSize">25sp</item>
+
+
+    </style>
+
+    <style name="IDStyle" parent="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/FaceColor</item>
+        <item name="android:textColorSecondary">@color/FaceColor</item>
+        <item name="android:textColorSecondaryInverse">@color/FaceColor</item>
+        <item name="android:dialogTheme">@color/white</item>
+        <item name="android:minWidth">950dp</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ececec</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#bebebe</color>
+    <color name="FaceColor">#397ba1</color>
+    <color name="Face">#ede4a6</color>
+    <color name="white">#ffffff</color>
+    <color name="backGrey">#0b0b0b</color>
+    <color name="black">#000000</color>
+    <color name="alphaGrey">#303d3838</color>
+    <color name="buttonPressed">#4e7fc4</color>
+    <color name="red">#e61c0a</color>
+    <color name="alpha_black">#60000000</color>
+    <color name="orange">#f5831b</color>
+    <color name="orange_pressed">#c56624</color>
+</resources>

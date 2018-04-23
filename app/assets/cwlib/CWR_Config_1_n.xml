@@ -1,0 +1,23 @@
+<VERSION>160728</VERSION>
+<ModelType>modelx</ModelType>
+<CloudWalk>	
+	<MODELX>
+		<MODEL>
+			<NETS>
+				<NET>
+					<Model>feature.bin</Model>
+					<Weights>featureWeight.bin</Weights>
+					<OutFeature>loss1/fc_norm</OutFeature>
+				</NET>
+			</NETS>
+			<DML> 			
+				<Mu>125</Mu>
+				<Sigma>-0.0192</Sigma>
+				<Model>mdl.bin</Model>
+			</DML>
+			<TRANS> 
+				<Flip>false</Flip>
+			</TRANS>
+		</MODEL>
+	</MODELX>
+</CloudWalk>
